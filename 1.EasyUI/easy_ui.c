@@ -720,7 +720,7 @@ void EasyUIEventChangeUint(EasyUIItem_t *item)
             changeStep = false;
     }
 
-    IPS114_SendBuffer();
+    EasyUISendBuffer();
 }
 void EasyUIEventChangeInt(EasyUIItem_t *item)
 {
@@ -852,7 +852,7 @@ void EasyUIEventChangeInt(EasyUIItem_t *item)
             changeStep = false;
     }
 
-    IPS114_SendBuffer();
+    EasyUISendBuffer();
 }
 void EasyUIEventChangeFloat(EasyUIItem_t *item)
 {
@@ -985,7 +985,7 @@ void EasyUIEventChangeFloat(EasyUIItem_t *item)
             changeStep = false;
     }
 
-    IPS114_SendBuffer();
+    EasyUISendBuffer();
 }
 
 
